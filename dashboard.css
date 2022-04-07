@@ -1,0 +1,27 @@
+.topul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #23242c;
+  }
+.topli{
+    float: right;
+}
+
+
+.topli a {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topli a:hover:not(.active) {
+  background-color: white;
+}
+
+.active {
+  background-color: #04AA6D;
+}
